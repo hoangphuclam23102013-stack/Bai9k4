@@ -5,7 +5,7 @@ st.title('Thu vien dong vat')
 st.write('Hay chon 1 con vat, toi se hien thi thong tin con vat')
 Tinh_cach = {
     'con meo': ['https://tiengdong.com/tieng-meo-keu?utm_source=copylink&utm_medium=share_button&utm_campaign=shared_from_tiengdong.com&utm_content=vi-18h52-19-03-2026', 'https://hoanghamobile.com/tin-tuc/wp-content/uploads/2024/08/anh-con-meo-cute.jpg', 'https://www.tiktok.com/@3conmeota/video/7503908811447471367'],
-    'con cho':['https://tiengdong.com/tieng-cho-sua-kinh-hoang', 'https://img.tripi.vn/cdn-cgi/image/width=700,height=700/https://gcs.tripi.vn/public-tripi/tripi-feed/img/482759ycb/anh-mo-ta.png', 'https://www.youtube.com/watch?v=GuS4-F7zGkI']}
+    'con cho':['https://tiengdong.com/tieng-cho-sua?utm_source=copylink&utm_medium=share_button&utm_campaign=shared_from_tiengdong.com&utm_content=vi-18h57-19-03-2026', 'https://img.tripi.vn/cdn-cgi/image/width=700,height=700/https://gcs.tripi.vn/public-tripi/tripi-feed/img/482759ycb/anh-mo-ta.png', 'https://www.youtube.com/watch?v=GuS4-F7zGkI']}
 cols = st.columns(len(Tinh_cach))
 chon = None
 for i, (con_vat, tinh_cach) in enumerate(Tinh_cach.items()):
