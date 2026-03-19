@@ -15,8 +15,8 @@ for i, (con_vat, tinh_cach) in enumerate(Tinh_cach.items()):
 if chon:
     with st.expander(chon):
          st.write('Am thanh: ')
-         st.audio(Tinh_cach[chon][0])
+         st.audio(Tinh_cach[chon][0], format = 'audio/mp3')
          st.write('Hinh anh: ')
          st.write(Tinh_cach[chon][1])
          st.write('Video: ')
-         st.video(Tinh_cach[chon][2])
+         st.video(Tinh_cach[chon][2], format = 'video/mp4')
