@@ -17,6 +17,6 @@ if chon:
          st.write('Am thanh: ')
          st.audio(Tinh_cach[chon][0], format = 'audio/mp3')
          st.write('Hinh anh: ')
-         st.write(Tinh_cach[chon][1])
+         st.image(Tinh_cach[chon][1])
          st.write('Video: ')
          st.video(Tinh_cach[chon][2], format = 'video/mp4')
